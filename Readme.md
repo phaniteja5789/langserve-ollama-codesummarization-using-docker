@@ -23,7 +23,7 @@ phase-1
   	Modules used in this Phase are 
 
    		langchain_community.llms.ollama import Ollama ==> in order to use Ollama where the llama3 model will be running in the local host at port 11434
-     		langserve import add_routes ==> used to run the Chain at the endpoint 8080.
+     	        langserve import add_routes ==> used to run the Chain at the endpoint 8080.
        		langchain.prompts import PromptTemplate ==> used the PromptTemplate in order to create a Prompt that needs to be sent to the LLM.
 	
 phase-2
