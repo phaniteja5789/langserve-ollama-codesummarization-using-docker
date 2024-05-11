@@ -16,7 +16,15 @@ phase-1
 	A Dockerfile is created in order to build a image, which uses the uvicorn server in order to run an API in the port 8080.
 	
 	
-	After completion of Phase-1, the image the build.
+	After completion of Phase-1, the image is built with the name langservecontainer.
+
+ 	Framework used in this Phase are langchain
+
+  	Modules used in this Phase are 
+
+   		langchain_community.llms.ollama import Ollama ==> in order to use Ollama where the llama3 model will be running in the local host at port 11434
+     		langserve import add_routes ==> used to run the Chain at the endpoint 8080.
+       		langchain.prompts import PromptTemplate ==> used the PromptTemplate in order to create a Prompt that needs to be sent to the LLM.
 	
 phase-2
 
