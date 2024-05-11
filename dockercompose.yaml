@@ -1,0 +1,19 @@
+version: '1'
+
+services:
+  ollama-container:
+    image: ollama/ollama:latest
+    ports:
+      - 11434:11434
+    volumes:
+      - ./data/ollama:/root/.ollama
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DOCKER_TLS_CERTDIR=""
+    
+
+  langservecontainer:
+    image: langservecontainer
+    ports:
+      - 5050:5050
+ 

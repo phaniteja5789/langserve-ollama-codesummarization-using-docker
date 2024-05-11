@@ -1,0 +1,6 @@
+uvicorn
+pydantic==1.10.13
+langserve[all]
+langchain[all]
+fastapi
+langchain_community
