@@ -35,5 +35,11 @@ phase-2
 		
 
 The final output is shown as below
+![LangServeUI](https://github.com/phaniteja5789/langserve-ollama-codesummarization-using-docker/assets/36558484/a41e74af-2836-4d60-be9e-9dd9e107ec97)
+
+The prompt that is sent to the LLM(llama3) using Ollama in order to run the LLM locally is as below screenshot.
+![InputPrompt](https://github.com/phaniteja5789/langserve-ollama-codesummarization-using-docker/assets/36558484/632c46b7-d8b6-4c19-aaf7-9c2fe473a0c5)
+
+
 
 		
